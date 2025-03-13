@@ -4,3 +4,22 @@ A program that simulates rolling a pair of dice. Each time the program runs, it
 should randomly generate two numbers between 1 and 6 (inclusive), representing
 the result of each die. The program should then display the results and ask if the
 user would like to roll again. 
+
+
+import random
+
+random.choice(seq)
+
+def function():
+    xrando = random.choice(seq)
+    yrando = random.choice(seq)
+    return(xrando, yrando)
+while True:
+    x = input('Roll the dice? (y/n): ')
+    if x == ('y'):
+        print(function())
+    elif x == ('n'):
+        print('Thanks for playing!')
+        break
+    else:
+        print('invalid input')
