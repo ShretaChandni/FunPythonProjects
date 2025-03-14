@@ -1,0 +1,8 @@
+Tic Tac Toe Game 
+
+A program to create a classic Tic Tac Toe game. Two players take turns
+marking Xs and Os on a 33 grid. The first player to align three of their marks
+either vertically, horizontally, or diagonally wins the game. 
+The board is printed after each move, with colored marks to distinguish between
+the players. The game checks for a winner after each move and ends when a
+player wins or when the board is full, resulting in a draw. 
