@@ -1,0 +1,5 @@
+Quiz Game 
+
+A program to create a quiz where the player answers multiple-choice
+questions. The program should evaluate the player's answers and provide a score
+at the end. 
