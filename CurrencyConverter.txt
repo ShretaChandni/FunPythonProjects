@@ -1,0 +1,4 @@
+A program to convert an amount of money from one currency to another
+using fixed exchange rates. 
+The user inputs the amount and selects the currencies
+for conversion. 
